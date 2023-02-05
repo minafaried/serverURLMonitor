@@ -17,24 +17,20 @@ and get detailed uptime reports about their availability, average response time,
 
 5-API documentation:
 
-    [documentation](https://documenter.getpostman.com/view/10918316/2s935oLitC)
+    https://documenter.getpostman.com/view/10918316/2s935oLitC
     
 6-Docker:
-
-    to build an image:
+to build an image:
     
 ```bash
 docker build [project path] -t monitorserver:latest
-```
-    
-    to run the Container:
-    
+``` 
+to run the Container:
+
 ```bash
 docker run -d --name server -p 3000:3000 monitorserver
 ```
-
 7-Unit tests:
-
     to run the unit test:
 ```bash
 npm test
